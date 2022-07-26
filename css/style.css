@@ -1,0 +1,173 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inter-600 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* inter-800 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/inter-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color:aliceblue;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+
+.wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.wrap-header {
+    margin-top: 1%;
+}
+
+h1 {
+    font-style: bold;
+    font-size: 56px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+h2 {
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+h3 {
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+
+
+
+
+header {
+    width: 100%;
+    margin-top: 3%;
+    padding-bottom: 8%;
+}
+
+.header-bio1 {
+    text-align: center;
+    width: fit-content;
+    position : absolute;
+	top	: 30px;
+	left : 40%;
+}
+
+.header-bio2 {
+    text-align: center;
+    width: fit-content;
+    position : absolute;
+	top	: 110px;
+	left : 52%;
+}
+
+.header-img-src {
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid #62ee85;
+    border-radius: 100px;
+}
+
+.header-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* align-items:flex-start; */
+    padding-bottom: 5%;
+}
+
+section {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: auto;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.footer-color {
+    background-color: aliceblue;
+}
